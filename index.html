@@ -4,11 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mon Portfolio</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
- 
+  <header class="header">
+    <div class="logo">
+      <span class="logo-highlight">BAR</span>DAOUI
+    </div>
+    <nav class="nav">
+      <ul class="nav-links">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#projects">Réalisations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+    </nav>
+  </header>
+  
   <div class="background-image">
     <div class="background-content">
       <h1>Bardaoui Fedi</h1>
@@ -17,7 +33,7 @@
   </div>
 
 
-  <div class="section">
+  <div class="section" id="about">
     <div class="boxed">
       <div class="flex">
         <div class="w40">
@@ -30,7 +46,7 @@
     </div>
   </div>
 
-  <div class="section dark">
+  <div class="section dark" id="skills">
     <div class="boxed text-center">
       <h2>Découvrez mes compétence</h2>
       <div class="flex gap20">
@@ -53,17 +69,53 @@
       </div>
     </div>
   </div>
-
-  <div class="section">
+<!-- J'ajouterai mes projets au fur et à mesure. -->
+  <div class="section" id="projects">
     <div class="boxed text-center">
       <h2>Mes réalisations</h2>
-      <div class="flex gap20">
-        <div class="w32">
-
+      <div class="flex space-between">
+        <div class="w32 realisation">
+          <a href="https://poppopopopoo.github.io/shop/" target="_blank">
+            <img src="/img/img-sneakers.PNG"">
+          </a>
         </div>
+        <div class="w32 realisation">
+          <a href="https://poppopopopoo.github.io/shop/" target="_blank">
+            <img src="/img/img-sneakers.PNG">
+          </a>
+        </div>
+        <div class="w32 realisation">
+          <a href="https://poppopopopoo.github.io/shop/" target="_blank">
+            <img src="/img/img-sneakers.PNG">
+          </a>
+        </div>  
       </div>
     </div>
   </div>
+
+  <div class="section dark" id="contact">
+    <div class="boxed text-center">
+      <h2>Contactez-moi</h2>
+      <div class="flex space-between">
+        <a href="mailto:bardaouifedi@gmail.com" class="contact w32">
+          <span class="material-icons icon">mail</span>
+          <span class="label">e-mail</span>
+          <span class="value">bardaouifedi@gmail.com</span>
+        </a>
+        <a href="tel:0606060606" class="contact w32">
+          <span class="material-icons icon">call</span>
+          <span class="label">téléphone</span>
+          <span class="value">0606060606</span>
+        </a>
+        <a href="https://www.linkedin.com/in/fedi-bardaoui/" class="contact w32" target="_blank">
+          <span class="material-icons icon">share</span>
+          <span class="label">LinkedIn</span>
+          <span class="value">Mon Profil</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  
 
 </body>
 
